@@ -1,13 +1,10 @@
 import { Link } from "react-router-dom";
 
-function Navbar() {
+export default function Navbar() {
   return (
     <nav>
-      <h2>CarParts App</h2>
       <Link to="/">Home</Link>
-      <Link to="/carparts">Repuestos</Link>
+      <Link to="/carparts">Car Parts</Link>
     </nav>
   );
 }
-
-export default Navbar;
