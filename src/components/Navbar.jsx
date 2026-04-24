@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav>
       <h2>CarParts App</h2>
-      <a href="/">Home</a>
-      <a href="/carparts">Repuestos</a>
+      <Link to="/">Home</Link>
+      <Link to="/carparts">Repuestos</Link>
     </nav>
   );
 }
